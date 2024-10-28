@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mithlesh - Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/Om.png">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Source+Sans+Pro" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background: #111;
+            background: linear-gradient(to bottom, #222 0%, #222 100%);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .wrapper-1 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+        .wrapper-2 {
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Kaushan Script', cursive;
+            font-size: 4em;
+            letter-spacing: 3px;
+            color: lightskyblue;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        .wrapper-2 p {
+            margin: 0;
+            font-size: 1.3em;
+            color: #fff;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 1px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .go-home {
+            display: inline-block;
+            background: none;
+            color: lightskyblue;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px 30px;
+            margin-top: 20px;
+            border-radius: 6px;
+            border: 2px solid lightskyblue;
+            transition: all 0.3s ease;
+        }
+        .go-home:hover {
+            color: #fff;
+            background: lightskyblue;
+        }
+        @media (min-width: 360px) {
+            h1 {
+                font-size: 4.5em;
+            }
+            .go-home {
+                margin-bottom: 20px;
+            }
+        }
+        @media (min-width: 600px) {
+            .wrapper-1 {
+                max-width: 620px;
+                margin: 50px auto;
+                box-shadow: 4px 8px 40px 8px rgba(238, 241, 30, 0.1);
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+            background: #0e0d0d;
+        }
+        .icons {
+            margin-bottom: 10px;
+        }
+        .icons a {
+            color: lightskyblue;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+        .icons a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="wrapper-1">
+            <div class="wrapper-2">
+                <i class="fa fa-party" id="checkmark"></i>
+                <h1>Thank you!</h1>
+                <p>Hello, thank you for contacting Mithlesh! <br> I'll get back to you as soon as possible 😊</p>
+                <a class="go-home" href="index.html">Go Home</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="icons">
+            <a href="https://Instagram.com/Mithlesh_27" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/mithlesh-kushwaha-02a70a106/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/mithlesh-27" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <span>Created by <a href="https://Instagram.com/Mithlesh_27" target="_blank">Mithlesh with ❤️</a></span><br>
+        <!-- <span>&copy; All rights reserved by Mithlesh</span> -->
+    </footer>
+</body>
+</html>
